@@ -1,0 +1,197 @@
+Q1. Are callbacks possible with Terraform on Azure?
+By using the Azure Event Hubs, callbacks are probable on Azure. Terraform’s Azure supplier provides effortless functionality to users. Microsoft Azure Cloud Shell provides an already installed Terraform occurrence.
+Q2. What is Terraform init?
+Terraform init is a control to initialize an operational index that contains Terraform pattern files. This control can be looped multiple times. It is the first command that should be run after writing the new Terraform design.
+Q3. What is Terraform D?
+Terraform D is a plugin used on most in-service systems and Windows. Terraform init by default searches next directories for plugins.
+Q4. What do you understand about Terraform in AWS?
+Ans:
+
+Terraform is an infrastructure as code tool that permits us to store our Amazon Web Services infrastructure and produce an update. It is comparable to AWS Cloud Formation. 
+Q5. Is history the same as it is on the web while using TFS API to provide resources?
+Ans:
+
+Yes, the narration is similar to on the web because UI keeps API as the base. The whole thing that is on the UI is availed during other methods and the API 
+Q6. Why is Terraform used for DevOps?
+This is because Terraform manages infrastructure as code. Infrastructure as code is the foundation for DevOps practices such as continuous integration, version control, continuous deployment, and code review.
+Q7. Define null resource in Terraform.
+Ans:
+
+null_resource implements standard resource library, but no further action is taken. The triggers argument allows an arbitrary set of values that will cause the replacement of resources when changed.
+Q8. Explain Oracle Cloud Infrastructure.
+Oracle cloud offered by Oracle Corporation is a cloud computing service providing storage, servers, applications, services, and network through a global network of managed data centers by Oracle Corporation. These services are provisioned on-demand over the Internet by the company. 
+Q9. What do you understand about Terraform backend?
+backend in Terraform is used to determine how an operation is executed and how the state is loaded. Terraform uses the ‘local’ backend by default. The abstraction enables remote execution, non-local file state storage, etc. 
+Q10. What are the version controls supported by Terraform besides GitHub?
+The version controls supported GitLab EE, GitLab CE, and Bucket cloud.
+Q11. What are modules in Terraform?
+A jug for numerous resources that are used jointly is known as a module in Terraform. The root module includes resources mentioned in the .tf files and is required for every Terraform. 
+Q12. Is Terraform usable for an on-prem infrastructure
+Yes, Terraform can be used for on-prem infrastructure. As there are a lot of obtainable providers, we can decide which suits us the best. All that we need is an API. 
+Q13. Does Terraform support multi-provider deployments?
+Yes, multi-provider deployments are supported by Terraform, which includes on-prem like Openstack, VMware, and we can manage SDN even using Terram too.
+Q14. How is duplicate resource error ignored during Terraform apply?
+We can try the following options:
+Delete those resources from the cloud provider(API) and recreate them using Terraform
+Delete those resources from Terraform code to stop its management with it
+Carry out a Terraform import of the resource and remove the code that is trying to recreate them
+Q15. Name all version controls supported by Terraform
+The supported version controls are:
+Azure DevOps Services
+Azure DevOps Server
+Bitbucket Server
+Bitbucket Cloud
+Gitlab EE and CE
+Gitlab.com
+GitHub Enterprise
+GitHub.com (OAuth)
+GitHub.com 
+Q16. What are some of the built-in provisioners available in Terraform?
+Here is the list of built-in provisioners in Terraform:
+Salt-masterless Provisioner
+Remote-exec Provisioner
+Puppet Provisioner
+Local-exec Provisioner
+Habitat Provisioner
+File Provisioner
+Chef Provisioner
+Q17. Which command destroys Terraform managed infrastructure?
+The given command is used for this purpose:
+    Terraform destroy [options] [dir] 
+Q18. Tell us about some notable Terraform applications
+The applications of Terraform are pretty broad due to its facility of extending its abilities for resource manipulation. Some of the unique applications are:
+Software demos development
+Resource schedulers
+Multi-cloud deployment
+Disposable environment creations
+Multi-tier applications development
+Self-service clusters
+Setup of Heroku App
+Q19. What are the components of Terraform architecture?
+The Terraform architecture includes the following features:
+Sub-graphs
+Expression Evaluation
+Vertex Evaluation
+Graph Walk
+Graph Builder
+State Manager
+Configuration Loader
+CLI (Command Line interface)
+Backend
+Q20. Define Resource Graph in Terraform.
+resource graph is a visual representation of the resources. It helps modify and create independent resources simultaneously. Terraform establishes a plan for the configuration of the graph to generate plans and refresh the state. It creates structure most efficiently and effectively to help us understand the drawbacks.
+Q21: What do you mean by Terraform?
+Terraform is open-source communication as a system software tool created by HashiCorp. It is an instrument for building, altering, and versioning transportation safely and professionally. Terraform can direct existing and accepted service providers as well as convention in-house solutions.
+Q22: What are the reasons for choosing Terraform for DevOps?
+Below are the reasons for choosing Terraform for DevOps:
+It can do complete orchestration and not just configuration management (like Ansible and Puppet).
+Has amazing support of almost all the popular cloud providers like AWS, Azure, GCP, DigitalOcean etc.
+Easily manages the configuration of an immutable (dynamic) infrastructure.
+Provide immutable infrastructure where configuration changes smoothly.
+Works on HCL (HashiCorp configuration language), which is very easy to learn and understand.
+Easily portable from one provider to another.
+Easy Installation.
+Q23.Define Terraform init?
+Terraform initializes the code using the command terraform init. This command is used to initialize the working directory containing Terraform configuration files. It is safe to run this command multiple times.
+You can use the init command for:
+Plugin Installation
+Child Module Installation
+Backend Initialization
+Q24. Name some major competitors of Terraform?
+Some of them are:
+Packer
+Cloud Foundry
+Ansible
+Kubernetes
+Q25.Define Terraform provider?
+Terraform is used to manage and inform infrastructure resources such as bodily machines, VMs, network switches, containers, and more. A provider is accountable for thoughtful API interactions and revealing resources. Terraform supports a large number of cloud providers.
+Q26. How does Terraform work?
+Terraform creates an implementation plan, define what it will do to attain the preferred state, and then executes it to construct the described infrastructure. As the configuration changes, Terraform is talented to decide what changed and generate incremental execution plans which can be practical.
+Q27. Name some major features of Terraform?
+Some of them are:
+Execution Plan
+Change Automation
+Resource Graph
+Infrastructure as code
+Q28. Define IAC?
+IaC is a short form to the term “Infrastructure as Code”. IaC refers to a scheme whereby developers can run and provision the computer data center’s mechanically instead of getting into a physical process. Terraform, for example, is a case tool of IaC.
+Q29.How to check the installed version of Terraform?
+We can use terraform -version of the command to identify the version which we are running.
+Q30.Describe the working of Terraform core?
+The terraform core looks at the configuration monitoring and creates analysis and evaluation based on the configuration. It keeps track and compare the versions (current and previous) and then display the output through the terminal.
+Terraform core mainly takes two inputs:
+Terraform Configuration – It keeps track of the infrastructure detail
+Terraform state – It keeps track of the infrastructure status.
+Q31. How does Terraform help in discovering plugins?
+The authority “Terraform init” helps Terraform interpret configuration files in the operational directory. Then, Terraform finds out the essential plugins and searches for installed plugins in diverse locations. In addition, Terraform also downloads extra plugins at times. Then, it decides the plugin versions to use and writes a security device file for ensuring that Terraform will employ the identical plugin versions.
+Q32.Can I add policies to the open-source or pro version of Terraform enterprise?
+You cannot insert policies to the open-source description of Terraform Enterprise. The equal also goes for the Enterprise Pro version. The finest version of Terraform Enterprise only could contact the lookout policie.
+Q33. Define Modules in Terraform?
+Answer: A module in Terraform is a jug for numerous resources that are used jointly. The root module is required for every Terraform that includes resources mentioned in the .tf files.
+Q34. What are the ways to lock Terraform module versions?
+Answer: You can use the terraform module registry as a source and provide the attribute as ‘version’ in the module in a terraform configuration file. If you are using the GitHub repository as a source, then you need to specify the branch, version and query string with ‘? ref’.
+Q35. What do you mean by Terraform cloud?
+Answer: Terraform Cloud is an application that helps teams use Terraform together. It manages Terraform runs in a consistent and reliable environment, and includes easy access to shared state and secret data, access controls for approving changes to infrastructure, a private registry for sharing Terraform modules, detailed policy controls for governing the contents of Terraform configurations, and more.
+Q36. Define null resource in Terraform?
+Answer: The null resource implements the average resource lifecycle but takes no extra action. The trigger argument permits specifying a subjective set of values that, when misrepresented will source the reserve to be replaced.
+The primary use-case for the null resource is as a do-nothing container for arbitrary actions taken by a provisioner.
+Q37. Can Terraform be used for on-prem infrastructure?
+Answer: Yes, Terraform can be utilized for on-prem infrastructure. There are a lot of obtainable providers. You can decide any one of them which suits you most excellent. Many also build client Terraform providers for themselves; all wanted is just an API.
+Q38. What does the following command do?
+Answer:
+Terraform -version – to check the installed version of terraform
+Terraform fmt– it is used to rewrite configuration files in canonical styles and format
+Terraform providers – it gives information of providers working in the current configuration.
+Q39. List all the Terraform supported versions
+Answer:
+GitHub.com
+GitLab.com
+GitHub Enterprise
+GitLab CE and EE
+Bitbucket Cloud and Server
+Azure DevOps Server and Services
+Q40. Explain the command terraform validate in the context of Terraform.
+Answer: The terraform validate command checks the configuration files in a directory, focusing purely on the configuration and omitting any external services like remote state, provider APIs, and so on. Validate examines a configuration to verify if it is syntactically correct and internally consistent, regardless of variables or current state. As a result, it’s best for general reusable module verification, such as confirming that attribute names and value types are valid. This command can be run automatically, for example, as a post-save check in a text editor or as a test step in a continuous integration system for a reusable module.
+Syntax: terraform validate [options]
+Q41. Mention some of the version control tools supported by Terraform.
+Answer: Version control tools supported by Terraform are:
+GitHub
+GitLab CE
+GitLab EE
+Bucket Cloud
+Q42. What are the modules in Terraform?
+A Terraform module is a set of numerous resources used jointly. It is a single directory containing Terraform configuration files. A simple arrangement with a single directory having one or more files can be referred to as a module. The directory is called the root module when Terraform commands are run directly, and the files have the extension .tf. A module that is called by another configuration is called configuration's "child module."
+Q43. What are the main reasons for choosing Terraform for DevOps?
+Following are the main reasons for choosing Terraform for DevOps:
+Following are the reasons for choosing Terraform for DevOps:
+Terraform is preferred for DevOps because it can do complete orchestration and not just configuration management such as Ansible and Puppet.
+It provides amazing support to almost all the popular cloud providers like AWS, Azure, GCP, DigitalOcean, etc.
+It can easily manage the configuration of an immutable (dynamic) infrastructure.
+It provides an immutable infrastructure where configuration changes smoothly.
+It works on HCL (HashiCorp Configuration Language), which is very easy to learn and understand.
+It is easily portable from one provider to another.
+The installation of Terraform for DevOps is easy.
+Q44. What do you understand by Terraform init?
+Terraform init is a control used to initialize an operational index containing Terraform pattern files. This control is the first command that should be run after writing the new Terraform design and can be looped multiple times.
+Q45. What is the null resource in Terraform?
+The null_resource is used to implement a standard resource library, but no further action is taken. The triggers argument allows an arbitrary set of values that will cause the replacement of resources when changed.
+Q46. What is Terraform D?
+Terraform D is a plugin used on most in-service systems and Windows. Terraform init by default searches next directories for plugins.
+Q47. What do you understand by Terraform backend?
+The Terraform backend is used to specify how an operation is executed and how the state is loaded. It uses the 'local' backend by default. The abstraction enables remote execution, non-local file state storage, etc.
+Q48. What is ".terraform" directory?
+The ".terraform" directory is a local cache where Terraform retains some files required for subsequent operations against this configuration. Its contents are not intended to be included in version control.
+Q49. What are some major competitors of Terraform?
+Following are some major competitors of Terraform:
+Packer
+Cloud Foundry
+Ansible
+Kubernetes
+Q50. What is the usage of Terraform init?
+Terraform init is a command used to initialize the Terraform code. Let's see the all usage of Terraform init command:
+Terraform init command is used to initialize the working directory containing Terraform configuration files.
+It is used for Plugin Installation.
+It is also used for Child Module Installation.
+It is used for Backend Initialization.
+You can safely run this command multiple times.
+
